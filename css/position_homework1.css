@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  border: 2px solid navy;
+  margin: 0 auto;
+  overflow: scroll;
+}
+dl {
+  margin: 0;
+}
+dd {
+  font-size: 1.5em;
+  border: 1px solid black;
+  padding: 24px 0px 0px 0px;
+  color: aquamarine;
+  background-color: brown;
+}
+dt {
+  height: 30px;
+  top: 0;
+  position: sticky;
+  background-color: cadetblue;
+  color: aliceblue;
+}

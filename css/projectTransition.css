@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 10vh;
+  background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg),
+    linear-gradient(110deg, #c0113df5, #93b10f);
+}
+.header {
+  position: fixed;
+  display: inline-flex;
+  width: 100%;
+  height: 80px;
+  background: #056e5dcb;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3%;
+  animation: heade 5s infinite;
+}
+@keyframes heade {
+  0% {
+    background: rgb(17, 3, 3);
+  }
+  5% {
+    background: rgb(218, 212, 212);
+  }
+  10% {
+    background-color: #51d4c9;
+  }
+  15% {
+    background-color: brown;
+  }
+}
+li,
+a,
+button {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(11, 36, 58);
+  text-decoration: none;
+  cursor: pointer;
+  animation-name: heade;
+  animation-duration: 4s;
+}
+button {
+  position: relative;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: #51d4c9;
+  transition: all 0.3s ease-in-out 0s;
+}
+.ak h1 {
+  padding: 20px;
+  background-color: yellow;
+  margin: 200px 0;
+  position: relative;
+  animation: but 3s infinite;
+}
+@keyframes but {
+  0% {
+    transform: rotate3d(1, 2, 3, 0deg);
+  }
+  5% {
+    transform: rotate3d(1, 2.1, 3, 10deg);
+    background-color: rebeccapurple;
+  }
+  10% {
+    transform: rotate3d(1, 2.7, 3.1, -10deg);
+    background-color: red;
+  }
+  15% {
+    transform: rotate3d(2, 2.2, 3, 10deg);
+    background-color: white;
+  }
+  20% {
+    transform: rotate3d(1, 2, 3, -10deg);
+  }
+  25% {
+    transform: rotate3d(2, 2.4, 3, 10deg);
+  }
+}
+button:hover {
+  color: #000;
+  background-color: #51d4c9ce;
+}
+.nav_ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav_ul li {
+  padding: 10px;
+  transition: all 0.3s ease-in-out 0s;
+}
+.nav_ul li:hover {
+  color: rgba(33, 75, 112, 0.432);
+}
+.box {
+  display: grid;
+}
+.boxs {
+  width: 400px;
+  height: 350px;
+  margin: 25% 40px;
+}

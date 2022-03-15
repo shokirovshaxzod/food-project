@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "men.css",
+	"sources": [
+		"../sass/men.sass"
+	],
+	"sourcesContent": [
+		"$main-color: red;\nh1 {\n   color: $main-color; }\n"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,EAAE,CAAC;EACA,KAAK,EAFK,GAAG,GAEQ"
+}

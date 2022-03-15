@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    margin: 5px auto;
+    width: 50%;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+}
+.ch strong{
+    display: none;
+}
+.ch:hover strong{
+    display: block;
+}
+.ch{
+    background-color:red;
+    width: 0%;
+    height: 30px;
+    transition: all 2s linear;
+}
+.parent:hover div {
+    width: 100%;
+}
+.piano{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(85, 81, 81, 0.884);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    cursor: pointer;
+}
+.kilovish{
+    width: 100px;
+    height: 250px;
+    background-color: aliceblue;
+    transition-property:height ;
+    transition-duration: 5s;
+    transition-delay: 0.0005s;
+    transition-timing-function: cubic-bezier(.0107,3.74,.64,-0.29);
+}
+.kilovish:hover{
+    height: 499px;
+}
+.silver:hover{
+    background-color: silver;
+}
+.gray:hover{
+    background-color: gray;
+}
+.black:hover{
+    background-color: black;
+}
+.red:hover{
+    background-color: red;
+}
+.maroon:hover{
+    background-color: maroon;
+}
+.yellow:hover{
+    background-color: yellow;
+}
+.olive:hover{
+    background-color: olive;
+}
+.lime:hover{
+    background-color: lime;
+}
+.green:hover{
+    background-color: green;
+}
+.box{
+    background: white;
+    border: 1px solid red;
+    color: red;
+    width: 30%;
+    height: 50px;
+    font-size: 15px;
+    transition: width 1s ease-out, font-size 1s ease-out;
+    text-align: center;
+    cursor: pointer;
+}
+.box:hover{ 
+	width: 100%;
+    height: 300px;
+     font-size: 25px;
+}

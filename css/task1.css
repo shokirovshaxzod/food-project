@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: sans-serif;
+}
+.box{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background-image: url(https://w0.peakpx.com/wallpaper/738/808/HD-wallpaper-the-wave-oceans-foam-sky-wave-sand-water-beaches-nature-blue.jpg)
+}
+.box h1{
+    color: rgb(53, 118, 184);
+    font-size: 90px;
+    margin: 15px;
+    padding: 20px;
+}
+.box_1 p{
+    color: rgb(36, 18, 18);
+    font-size: 25px;
+    padding: 10px;
+}
+.button{
+    width: 200px;
+    height: 70px;
+    position:absolute;
+    border-radius: 10px;
+    color: rgb(53, 118, 184);
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    background: transparent;
+    border: 3.3px solid rgb(53, 118, 184);
+    margin: 20px 0px 0px -100px;
+}
+.button:hover{
+    background-color: steelblue;
+    color: rgb(184, 176, 176);
+}
+.button p{
+    font-size: 23px;
+}
+.box2{
+    display: flex;
+    width: 100%;
+    height: flex;
+    background-color: rgb(53, 118, 184);
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}.box3{
+    display: flex;
+    width: 100%;
+    height: flex;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+.box4{
+    width: 100%;
+    height: flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box5{
+    width: 100%;
+    height: flex;
+    background-color: steelblue;
+    font-size: 25px;
+    text-align:center ;
+    padding: 30px 0px 0px 0px;
+}
+.box6{
+    width: 100%;
+    height: flex;
+    background-color: #fff;
+    font-size: 25px;
+    text-align:center ;
+    padding: 30px 0px 0px 0px;
+}
+.box7{
+    width: 100%;
+    height: flex;
+    background-color: steelblue;
+    font-size: 25px;
+    text-align:center ;
+    padding: 30px 0px 0px 0px;
+}
